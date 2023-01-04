@@ -1,0 +1,50 @@
+:root {
+    --nav-color: #0E0E0E;
+    --bg-color-main: #141414;
+    --primary-button: #D9D9D9;
+    --secondary-button: #4F5C56; 
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg-color-main);
+
+}
+header {
+    background-color: var(--nav-color);
+    width: 100%;
+    height: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+header nav ul {
+    color: white;
+    text-decoration: none;
+    display: inline;
+
+}
+nav {
+    align-self: center;
+    display: flex;
+    justify-content: end;
+}
+header img {
+    width: 150px;
+    margin: 10px 20px;
+}
+/* AREA BANNER */
+.banner-area {
+    background-image: url("./assets/img/bg-principal.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+.banner-area h1 {
+    font-size: 30px;
+}
+.buttons {
+    display: flex;
+    padding: 10px 10px;
+    
+}
